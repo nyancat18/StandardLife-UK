@@ -945,6 +945,7 @@
 
 ._2nd-image-section {
   width: 100%;
+  height: 100% !important;
   padding-top: 150px;
   padding-bottom: 150px;
   background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/istock-527689700__2_.jpg');
@@ -955,6 +956,8 @@
 }
 
 ._3rd-image-section {
+  width: 100% !important;
+  height: 100% !important;
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/shutterstock_154789184.jpg');
