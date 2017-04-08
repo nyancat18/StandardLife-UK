@@ -923,6 +923,21 @@
   text-shadow: 1px 1px 6px #000;
 }
 
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('https://daks2k3a4ib2z.cloudfront.net/58e3d8f73ff6c0165602bcc6/58e8bf5657d1097a98343066_withoutwm-poster-00001.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
 .key-benefit {
   display: -webkit-box;
   display: -webkit-flex;
