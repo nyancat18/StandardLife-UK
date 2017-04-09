@@ -324,7 +324,7 @@
   max-width: 100%;
   background-image: -webkit-linear-gradient(270deg, #e6eaf1, #0a2f73);
   background-image: linear-gradient(180deg, #e6eaf1, #0a2f73);
-  height: 3450vh;
+  height: 3550vh;
 
 }
 
@@ -674,8 +674,8 @@
 }
 
 .img-wheel {
-  width: 700px;
-  height: 700px;
+  width: 100%;
+  min-height: 70%;
   background-image: url('../images/Wheel.png');
   background-position: 50% 50%;
   background-size: contain;
@@ -912,6 +912,7 @@
 
 
 .benefits-heading {
+  margin-top: :-100px;
   margin-bottom: 100px;
   padding-right: 40px;
   padding-left: 40px;
@@ -943,7 +944,7 @@ video {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  height: 140vh;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -960,6 +961,14 @@ video {
   font-family: StandardLife, sans-serif;
 }
 
+.altvid{
+height:100vh !important;
+}
+
+.vidalt{
+
+  height:100vh !important;
+}
 .benefit {
   display: -webkit-box;
   display: -webkit-flex;
