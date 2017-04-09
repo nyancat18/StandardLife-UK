@@ -18,8 +18,18 @@
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
+<style>
+#flexid { z-index:2 !important; }
+h1 { z-index:2 !important; }
+.benefit {z-index:2 !important;}
+#img1{z-index:2 !important; position:relative !important;}
+#img2{z-index:2 !important; position:relative !important;}
+#img3{z-index:2 !important; position:relative !important;}
+._3rd-image-section { z-index:2 !important; position:relative !important;}
+
+</style>
 <body class="body">
-  <div class="gradient-div" id="skrollr-body">
+  <div class="gradient-div" id="skrollr-body" style="">
    <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
     <a class="branding w-inline-block" href="index.html"><img src="images/Standard-Life-logo-2011.png" width="194">
     </a>
@@ -34,7 +44,7 @@
       </div><a class="nvlink w-nav-link" href="case-study.html">Case Study</a><a class="nvlink w-nav-link" href="platform-technology.html">Industry Insight</a><a class="nvlink w-nav-link" href="#testsec">Fully Integrated Solutions</a><a class="nvlink w-nav-link" href="contact.html">Contact</a>
     </nav>
   </div>
-    <div class="section-one">
+    <div class="section-one" style="z-index:2;position:relative">
 		<div>
 
 		  <div class="hero-header" data-start="opacity:1" data-bottom-center="position:fixed;top:0%;opacity:1" data-top-top="opacity:0;" data-top-bottom="position:relative">
@@ -216,9 +226,34 @@
 		</div>
 	</div>
 </div>
-<div id="flexid" data-bottom-top="opacity:0" data-center-top="position:fixed;opacity:1" data-top-bottom="opacity:0" data-top-bottom="position:relative" class="framei" style="height:100vh; width:100%">
-  <iframe data-anchor-target="#flexid" src="https://daks2k3a4ib2z.cloudfront.net/58e3d8f73ff6c0165602bcc6/58e8bf5657d1097a98343066_withoutwm-transcode.mp4" >
-<div class="vidalt">
+
+
+<!--------VIDEO---------->
+<video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+
+<source src="https://daks2k3a4ib2z.cloudfront.net/58e3d8f73ff6c0165602bcc6/58e8bf5657d1097a98343066_withoutwm-transcode.mp4" type="video/mp4">
+</video>
+
+<style>
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    transform: translateX(-50%) translateY(-50%);
+
+  background-size: cover;
+  transition: 1s opacity;
+}
+</style>
+<!--------VIDEO---------->
+
+
+  <div id="flexid" class="vidalt"  data-bottom-top="opacity:0" data-center-top="position:fixed;top:15%;opacity:1;z-index:12" data-top-bottom="opacity:0" data-top-bottom="position:relative" style="height: 1500px" >
 
   <div data-anchor-target="#flexid" class="card-flex-div">
 			<div data-anchor-target="#flexid" class="flex-cards">
@@ -235,8 +270,6 @@
         </div>
 				</div>
       </div>
-      </div>
-      </iframe>
 
 
     <div class="footer" data-top-bottom="opacity:1">

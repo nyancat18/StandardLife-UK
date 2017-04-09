@@ -26,8 +26,6 @@
 
 .framei{
   height: 100vh !important;
-
-
 }
 
 .flexid{
@@ -1535,8 +1533,9 @@ html.w-mod-js *[data-ix="introduction-header-2"] {
   .circle-link {
     left: -45px;
     top: 219px;
-    width: 70px;
-    height: 70px;
+    width: 14%;
+    height: 14vh;
+    position: absolute;
   }
   .circle-link.left-top {
     left: 47px;
