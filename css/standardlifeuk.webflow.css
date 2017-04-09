@@ -24,6 +24,16 @@
   background-attachment: fixed;
 }
 
+.framei{
+  height: 100vh !important;
+
+
+}
+
+.flexid{
+  height: 100vh !important
+}
+
 .full-screen-header.without-image {
   display: -webkit-box;
   display: -webkit-flex;
@@ -675,7 +685,7 @@
 
 .img-wheel {
   width: 100%;
-  min-height: 70%;
+  min-height: 80%;
   background-image: url('../images/Wheel.png');
   background-position: 50% 50%;
   background-size: contain;
@@ -686,44 +696,47 @@
   position: relative;
   left: -131px;
   top: 68px;
-  width: 150px;
-  height: 150px;
+  width: 80px;
+  height: 80px;
   border: 1px solid #000;
   border-radius: 80px;
 }
 
 .circle-link.left-top {
-  left: 135px;
+  left: 377px;
+  top: 19px;
   opacity: 0.04;
 }
 
 .circle-link.right-top {
-  left: -48px;
-  top: 67px;
+  left: 312px;
+  top: 16px;
+  width: 80px;
+  height: 80px;
   opacity: 0.05;
 }
 
 .circle-link.left-middle {
-  left: -136px;
-  top: 280px;
+  left: 546px;
+  top: 157px;
   opacity: 0.02;
 }
 
 .circle-link.left-right {
-  left: 233px;
-  top: 280px;
+  left: 148px;
+  top: 152px;
   opacity: 0.02;
 }
 
 .circle-link.bottom-right {
-  left: 260px;
-  top: 338px;
+  left: 152px;
+  top: 284px;
   opacity: 0.04;
 }
 
 .circle-link.bottom-left {
-  left: 139px;
-  top: 337px;
+  left: 62px;
+  top: 285px;
   opacity: 0.05;
 }
 
@@ -762,7 +775,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   color: #0a2f73;
-  
+
 }
 
 .introduction-header.inner {
@@ -966,7 +979,7 @@ height:100vh !important;
 }
 
 .vidalt{
-
+z-index: :0;
   height:100vh !important;
 }
 .benefit {
@@ -1102,6 +1115,7 @@ height:100vh !important;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  z-index: 1;
   width: 30%;
   height: 300px;
   padding: 22px;
@@ -1133,6 +1147,10 @@ height:100vh !important;
 
 .img3 {
   height: 2000px !important;
+}
+
+.vidbg {
+  height: 100vh !important
 }
 
 .bgconnect {
