@@ -1091,7 +1091,7 @@ video {
   height: 300px;
   padding: 22px;
   position: relative;
-    top: 300px;
+    top: 100px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;

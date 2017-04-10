@@ -333,9 +333,55 @@
   max-width: 100%;
   background-image: -webkit-linear-gradient(270deg, #e6eaf1, #0a2f73);
   background-image: linear-gradient(180deg, #e6eaf1, #0a2f73);
-  height: 2880vh;
+  height: 2700vh;
 
 }
+
+
+#bgconnect{
+    
+    position: relative;
+    z-index: 2;
+}
+
+
+@media screen and (max-height: 800px){
+    
+    .gradient-div {
+  
+  height: 2900vh;
+
+}
+}
+    
+    
+@media screen and (max-height: 900px){
+    
+    .footer{
+        
+        top: 100px !Important;
+    }
+    
+}
+
+
+@media screen and (max-height: 1600px){
+    
+    .footer{
+        
+        top: 175px !Important;
+    }
+    
+}
+    
+    #map{
+        
+        margin-top: 50px;
+    }
+    
+    
+}
+
 
 .heading-6 {
   text-shadow: 1px 1px 6px #000;
@@ -644,9 +690,10 @@
 .footer {
   padding: 50px;
   background-color: #0a2f73;
-    position: absolute;
+    position: relative;
+    z-index: 1;
     width: 100%;
-    top: 974px;
+   top: 50px;
 }
 
 .small-links-div {
@@ -686,7 +733,7 @@
 }
 
 .img-wheel {
-  width: 100%;
+  width: 50%;
   min-height: 80%;
   background-image: url('../images/Wheel.png');
   background-position: 50% 50%;
@@ -1120,7 +1167,7 @@ z-index: :0;
   z-index: 1;
   width: 30%;
   height: 300px;
-    top: 300px;
+    top: 100px;
     position: relative;
   padding: 22px;
   -webkit-box-orient: vertical;
@@ -1161,6 +1208,8 @@ z-index: :0;
   margin-top: 1500px;
   height: 3800px !important;
   width: 100%;
+z-index: 2;
+    position: relative;
 }
 
 .thd {

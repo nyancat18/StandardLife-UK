@@ -1053,7 +1053,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 150px;
+  top:100px;
   margin-bottom: 150px;
   padding-right: 50px;
   padding-left: 50px;
@@ -1069,6 +1069,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 30%;
+    top:100px;
   height: 300px;
   padding: 22px;
   -webkit-box-orient: vertical;
