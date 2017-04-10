@@ -1,5 +1,5 @@
 .body {
-  height: 100%;
+  height: 100% !important;
   font-family: StandardLife, sans-serif;
   overflow-x: hidden;
   max-width: 100%
@@ -26,6 +26,7 @@
 
 .framei{
   height: 100vh !important;
+    position: absolute;
 }
 
 .flexid{
@@ -332,7 +333,7 @@
   max-width: 100%;
   background-image: -webkit-linear-gradient(270deg, #e6eaf1, #0a2f73);
   background-image: linear-gradient(180deg, #e6eaf1, #0a2f73);
-  height: 3550vh;
+  height: 2880vh;
 
 }
 
@@ -643,6 +644,9 @@
 .footer {
   padding: 50px;
   background-color: #0a2f73;
+    position: absolute;
+    width: 100%;
+    top: 974px;
 }
 
 .small-links-div {
@@ -936,15 +940,15 @@
 }
 
 video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
+    position: inherit;
+   
+   
     min-width: 100%;
     min-height: 100%;
     width: 100vw;
     height: 100vh;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
+/*    z-index: -100;*/
+   
  background: url('https://daks2k3a4ib2z.cloudfront.net/58e3d8f73ff6c0165602bcc6/58e8bf5657d1097a98343066_withoutwm-poster-00001.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
@@ -1116,6 +1120,8 @@ z-index: :0;
   z-index: 1;
   width: 30%;
   height: 300px;
+    top: 300px;
+    position: relative;
   padding: 22px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1494,6 +1500,9 @@ html.w-mod-js *[data-ix="introduction-header-2"] {
     padding-left: 0px;
   }
   .footer {
+    position: absolute;
+    width: 100%;
+    top: 974px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
