@@ -339,47 +339,47 @@
 
 
 #bgconnect{
-    
+
     position: relative;
     z-index: 2;
 }
 
 
 @media screen and (max-height: 800px){
-    
+
     .gradient-div {
-  
+
   height: 2900vh;
 
 }
 }
-    
-    
+
+
 @media screen and (max-height: 900px){
-    
+
     .footer{
-        
+
         top: 100px !Important;
     }
-    
+
 }
 
 
 @media screen and (max-height: 1600px){
-    
+
     .footer{
-        
+
         top: 175px !Important;
     }
-    
+
 }
-    
+
     #map{
-        
+
         margin-top: 50px;
     }
-    
-    
+
+
 }
 
 
@@ -988,14 +988,14 @@
 
 video {
     position: inherit;
-   
-   
+
+
     min-width: 100%;
     min-height: 100%;
     width: 100vw;
     height: 100vh;
 /*    z-index: -100;*/
-   
+
  background: url('https://daks2k3a4ib2z.cloudfront.net/58e3d8f73ff6c0165602bcc6/58e8bf5657d1097a98343066_withoutwm-poster-00001.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
@@ -1036,7 +1036,7 @@ z-index: :0;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  width: 60%;
   margin-right: auto;
   margin-left: auto;
   padding-right: 20px;
