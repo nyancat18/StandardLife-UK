@@ -1,0 +1,16 @@
+.tehj-tooltip{
+     position: fixed;
+     /*top:0;left:0;*/
+     padding: 10px;
+     width:30vw;height: 100vh;
+     background-color: rgba(53,53,53,0.8);
+     z-index: 101;
+}
+.tehj-tooltip p{
+     color: #FFF;
+     font-size: 12px;
+}
+
+area{
+     background-color: #F00;
+}
