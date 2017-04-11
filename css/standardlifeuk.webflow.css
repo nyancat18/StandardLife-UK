@@ -12,6 +12,25 @@
   height:100%;
   width: 100%;
 }
+.embeddiv {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.em-content {
+  width: 50%;
+}
 
 .full-screen-header {
   width: 100%;
@@ -1566,6 +1585,30 @@ html.w-mod-js *[data-ix="introduction-header-2"] {
   .flex-content.image-and-all {
     width: 100%;
   }
+
+  .flex-cont {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
   .flex-content.image-and-all.img {
     margin-bottom: 20px;
     padding-right: 0px;
