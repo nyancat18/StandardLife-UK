@@ -1,22 +1,6 @@
 .body {
-  height: 100% !important;
+  height: 100%;
   font-family: StandardLife, sans-serif;
-}
-
-
-video { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 100;
-    transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
 }
 
 .full-screen-header {
@@ -922,7 +906,6 @@ video {
   width: 100%;
   padding-top: 70px;
   padding-bottom: 70px;
-    z-index: 10000;
 }
 
 .benefits-heading {
@@ -1064,7 +1047,6 @@ video {
 .background-video {
   width: 100%;
   height: 100%;
-  position: absolute;
 }
 
 .card-flex-div {
@@ -1090,8 +1072,6 @@ video {
   width: 30%;
   height: 300px;
   padding: 22px;
-  position: relative;
-    top: 100px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1110,29 +1090,15 @@ video {
   text-align: center;
 }
 
-
-#flexid{
-    
-    height: 100%;
-    position: absolute;
-}
-
-#flexid iframe{
-    
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
 .img1 {
-  height: 2000px;
+  height: 1000px;
 }
 
 .img2 {
-  height: 80px;
+  height: 2000px;
 }
 
-.img3 {
+.img4 {
   height: 2300px;
 }
 
