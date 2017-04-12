@@ -28,9 +28,7 @@
   height: 100vh !important;
 }
 
-.flexid{
-  height: 100vh !important
-}
+
 
 .full-screen-header.without-image {
   display: -webkit-box;
@@ -1135,6 +1133,11 @@ z-index: :0;
   text-align: center;
 }
 
+.final-footer{
+  min-height: 300px;
+  min-width: 100%;
+}
+
 .img1 {
   height: 1000px;
 }
@@ -1633,4 +1636,11 @@ html.w-mod-js *[data-ix="introduction-header-2"] {
   src: url('../fonts/CoreSansA35Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
+}
+
+
+
+#map{
+
+    margin-top: 100px;
 }
