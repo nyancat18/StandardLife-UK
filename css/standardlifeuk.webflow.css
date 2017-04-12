@@ -1,8 +1,9 @@
 .body {
-  height: 100%;
+  height: auto;
   font-family: StandardLife, sans-serif;
   overflow-x: hidden;
-  max-width: 100%
+  max-width: 100%;
+  padding-bottom: -100vh;
 }
 .items10 {
   height: 1000px;
@@ -330,7 +331,7 @@
   max-width: 100%;
   background-image: -webkit-linear-gradient(270deg, #e6eaf1, #0a2f73);
   background-image: linear-gradient(180deg, #e6eaf1, #0a2f73);
-  height: 3250vh;
+  height: auto;
 
 }
 
@@ -1087,8 +1088,8 @@ z-index: :0;
 }
 
 .background-video {
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .card-flex-div {
