@@ -354,3 +354,14 @@ td,
 th {
   padding: 0;
 }
+
+
+@font-face {
+    font-family: 'standard'; /*a name to be used later*/
+    src: url("../fonts/standardliferegular-webfont.woff");/*URL to font*/
+}
+
+
+*{
+    font-family: standard;
+}
