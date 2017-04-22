@@ -535,10 +535,10 @@ textarea.w-select {
 }
 @media screen and (max-width: 767px) {
   .w-hidden-main {
-    display: block !important;
+    display: inherit !important;
   }
   .w-hidden-medium {
-    display: block !important;
+    display: inherit !important;
   }
   .w-hidden-small {
     display: none !important;
@@ -597,45 +597,7 @@ textarea.w-select {
   .w-hidden-tiny {
     display: none !important;
   }
-  .w-col {
-    width: 100%;
-  }
-  .w-col-tiny-1 {
-    width: 8.33333333%;
-  }
-  .w-col-tiny-2 {
-    width: 16.66666667%;
-  }
-  .w-col-tiny-3 {
-    width: 25%;
-  }
-  .w-col-tiny-4 {
-    width: 33.33333333%;
-  }
-  .w-col-tiny-5 {
-    width: 41.66666667%;
-  }
-  .w-col-tiny-6 {
-    width: 50%;
-  }
-  .w-col-tiny-7 {
-    width: 58.33333333%;
-  }
-  .w-col-tiny-8 {
-    width: 66.66666667%;
-  }
-  .w-col-tiny-9 {
-    width: 75%;
-  }
-  .w-col-tiny-10 {
-    width: 83.33333333%;
-  }
-  .w-col-tiny-11 {
-    width: 91.66666667%;
-  }
-  .w-col-tiny-12 {
-    width: 100%;
-  }
+
 }
 .w-widget {
   position: relative;
@@ -1013,6 +975,212 @@ textarea.w-select {
     padding-left: 10px;
   }
 }
+
+
+@media screen and (max-width: 767px) { 
+
+.contact-div p {
+
+font-size: 12px;
+}
+
+.contact-heading {
+font-size: 22px;
+
+}
+
+
+}
+
+@media screen and (max-width: 700px) { 
+
+.contact-div p {
+
+font-size: 10px;
+line-height: 12px;
+}
+
+.contact-heading {
+font-size: 20px;
+
+}
+
+.contact-div {
+
+margin-bottom: -27px;
+}
+
+}
+
+
+@media screen and (max-width: 600px) { 
+
+.contact-div p {
+
+font-size: 9px;
+
+line-height: 12px;
+}
+
+.contact-heading {
+font-size: 15px;
+
+}
+
+.contact-div {
+
+margin-bottom: -45px;
+}
+
+.contact-div img {
+
+transform: scale(0.8);
+}
+
+.contact-div h1 {
+margin-top: -10px;
+}
+
+.contact-div {
+transform: scale(0.9);
+transition: 6s;
+}
+
+.contact-div:hover {
+transform: scale(1);
+
+transition: 6s;
+
+}
+
+}
+
+@media screen and (max-width: 500px) { 
+
+.contact-div p {
+
+font-size: 8px;
+
+line-height: 10px;
+}
+
+.contact-heading {
+font-size: 12px;
+
+}
+
+.contact-div {
+
+margin-bottom: -45px;
+}
+
+.contact-div img {
+
+transform: scale(0.8);
+}
+
+.contact-div h1 {
+margin-top: -10px;
+}
+
+.contact-div {
+transform: scale(0.8);
+transition: 6s;
+}
+
+.contact-div:hover {
+transform: scale(1.1);
+
+transition: 6s;
+
+}
+}
+
+
+@media screen and (max-width: 500px) { 
+
+.contact-div p {
+
+font-size: 7px;
+
+line-height: 9px;
+}
+
+.contact-heading {
+font-size: 10px;
+
+}
+
+.contact-div {
+
+margin-bottom: -45px;
+}
+
+.contact-div img {
+
+transform: scale(0.8);
+}
+
+.contact-div h1 {
+margin-top: -10px;
+}
+
+.contact-div {
+transform: scale(0.8);
+transition: 6s;
+}
+
+.contact-div:hover {
+transform: scale(1.2);
+font-weight: bold;
+transition: 6s;
+
+}
+}
+@media screen and (max-width: 400px) { 
+
+.contact-div p {
+
+font-size: 5px;
+
+line-height: 5px;
+}
+
+.contact-heading {
+font-size: 9px;
+
+}
+
+.contact-div {
+
+margin-bottom: -55px;
+}
+
+.contact-div img {
+
+transform: scale(0.8);
+}
+
+.contact-div h1 {
+margin-top: -10px;
+}
+
+.contact-div {
+transform: scale(0.8);
+transition: 6s;
+opacity: 0.5;
+}
+
+.contact-div:hover {
+transform: scale(1.4);
+font-weight: bold;
+z-index: 100;
+opacity:1;
+transition: 6s;
+
+}
+}
+
 @media screen and (max-width: 479px) {
   .w-nav[data-collapse="tiny"] .w-dropdown,
   .w-nav[data-collapse="tiny"] .w-dropdown-toggle {
